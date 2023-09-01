@@ -1,6 +1,6 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from 'astro/config'
 
-const outDirectory = "hoge/fuga/piyo";
+const outDirectory = 'hoge/fuga/piyo/'
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,15 +17,15 @@ export default defineConfig({
           entryFileNames: `assets/scripts/global.js`,
           // chunkFileNames: `assets/scripts/[name].js`,
           assetFileNames: (asset) => {
-            if (/\.css$/.test(asset.name ?? "")) {
-              return "assets/styles/global.css";
+            if (/\.css$/.test(asset.name ?? '')) {
+              return 'assets/styles/global.css'
             } else if (/\.(jpe?g|png|svg)$/.test(asset.name)) {
-              return "assets/images/[name].[ext]";
+              return 'assets/images/[name].[ext]'
             }
-            return "assets/[name].[ext]";
+            return 'assets/[name].[ext]'
           },
         },
       },
     },
   },
-});
+})
