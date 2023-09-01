@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  // "stylelint.autoFixOnSave": true,
+  "eslint.format.enable": true,
+  "prettier.documentSelectors": ["**/*.astro"],
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+  }
+}
