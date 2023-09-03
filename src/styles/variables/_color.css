@@ -1,9 +1,14 @@
 /* Variables - color
  * ========================================================================== */
 
+ /* base */
 :root {
-  /* base */
   --color-primary: #014F7E;
   --color-black: #000;
   --color-white: #fff;
+}
+
+/* background */
+:root {
+  --color-background-base: var(--color-black);
 }
