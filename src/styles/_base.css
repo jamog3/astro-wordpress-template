@@ -1,0 +1,89 @@
+/* Base
+ * ========================================================================== */
+
+body {
+  margin: 0;
+  background: var(--color-background-base);
+  color: var(--color-text-base);
+  font-family: var(--font-family-base);
+  font-weight: 400;
+  line-height: 1.6;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  font-feature-settings: 'palt' 1;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+
+  @media screen and (--viewport-tablet) {
+    line-height: 1.8;
+  }
+}
+
+input,
+button {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-family: var(--font-family-base);
+  font-weight: 400;
+}
+
+a,
+button,
+summary {
+  transition: var(--hover-button-transition);
+  color: var(--color-text-link);
+  cursor: pointer;
+}
+
+a:hover,
+button:hover,
+summary:hover {
+  opacity: var(--hover-button-opacity);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+dd {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+nav li::before {
+  content: '';
+}
+
+::selection {
+  color: #fff;
+  background: var(--color-background-primary);
+}
+
+/* what-input */
+[data-whatinput='mouse'] *:focus,
+[data-whatinput='touch'] *:focus {
+  outline: none;
+}

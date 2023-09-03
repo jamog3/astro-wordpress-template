@@ -1,0 +1,4 @@
+:root {
+  --shadow-box: 0 4px 4px rgba(var(--color-black-rgb), .25);
+  --shadow-menu: 0 8px 10px rgba(var(--color-black-rgb), .06), 0 3px 14px rgba(var(--color-black-rgb), .04), 0 5px 5px rgba(var(--color-black-rgb), .12);
+}

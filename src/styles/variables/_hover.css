@@ -1,0 +1,4 @@
+:root {
+  --hover-button-transition: opacity var(--transition-timing-m) var(--transition-material) 0s;
+  --hover-button-opacity: .65;
+}

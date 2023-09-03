@@ -1,0 +1,5 @@
+:root {
+  --zindex-header: 100;
+  --zindex-notification: 150;
+  --zindex-modal: 200;
+}

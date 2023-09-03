@@ -1,0 +1,7 @@
+@define-mixin hover {
+  transition: var(--hover-button-transition);
+  cursor: pointer;
+  &:hover {
+    opacity: var(--hover-button-opacity);
+  }
+}

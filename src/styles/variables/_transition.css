@@ -1,0 +1,6 @@
+:root {
+  --transition-material: cubic-bezier(.55, 0, .1, 1);
+  --transition-timing-s: .16s;
+  --transition-timing-m: .24s;
+  --transition-timing-l: .32s;
+}

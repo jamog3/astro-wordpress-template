@@ -1,0 +1,23 @@
+._mobile-inline {
+  display: inline !important;
+}
+
+@media screen and (--viewport-tablet) {
+  ._mobile-inline {
+    display: none !important;
+  }
+}
+
+._mobile-hide {
+  display: none !important;
+}
+
+@media screen and (--viewport-tablet) {
+  ._mobile-hide {
+    display: inline !important;
+  }
+}
+
+.hs-input {
+  height: 60px !important;
+}
